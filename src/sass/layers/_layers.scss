@@ -1,0 +1,69 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.table, th, td{
+    border-collapse: collapse;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+th{
+    color: coral;
+}
+
+.table{
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#hola{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.btn{
+    width: 8%;
+    padding: 1%;
+    margin-left: 2%;
+    border: 1px solid black;
+    border-radius: 50px;
+    background-color: white;
+    font-size: 12px / $fzparem + rem;
+}
+
+.btn:hover{
+ background-color: coral;
+ border: 1px solid coral;
+ color:white;
+}
+
+.search{
+    width: 40%;
+    padding: 1%;
+    font-size: 16px / $fzparem + rem;
+    border-radius: 50px;
+}
+
+#adios{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.paginas-sigui-ante{
+    float: right;
+    padding-right: 3%;
+    text-decoration: none;
+    color: black;
+}
+
+.paginas-sigui-ante:hover{
+    color: coral;
+}
+
+.paginas{
+    padding-left: 3%;
+}
